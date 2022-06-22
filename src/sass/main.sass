@@ -1,0 +1,109 @@
+@import ~normalize.css
+@import "./fonts/besom"
+@import "./fonts/coreSansE"
+@import "./fonts/myriadPro"
+@import "header"
+@import "footer"
+@import "promo"
+@import "courseSummary"
+@import "features"
+@import "skills"
+@import "skillsListShort"
+@import "courseContentList"
+@import "gallery"
+@import "modal"
+@import "imageGallery"
+@import "scroll"
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+html
+  font-size: 62.5%
+  scroll-behavior: smooth
+h1,h2,h3,h4,h5,h6
+  margin: 0
+  padding: 0
+ul, ol
+  list-style: none
+a
+  text-decoration: none
+button
+  border: none
+body
+  min-width: 1170px
+  height: 100vh
+  font-family: "CoreSansE", Arial, Helvetica, sans-serif
+  font-size: 1.6rem
+  line-height: 2.4rem
+  color: #4c4c4c
+  font-style: normal
+  font-weight: 400
+  background: no-repeat url(../images/background-image.jpg) 
+  background-position: top center
+  background-size: 100% 1006px
+.container
+  width: 1140px
+  padding-left: 15px
+  padding-right: 15px
+  margin: 0 auto
+.visually-hidden
+  position: absolute
+  width: 1px
+  height: 1px
+  margin: -1px
+  border: 0
+  padding: 0
+  white-space: nowrap
+  clip-path: inset(100%)
+  clip: rect(0 0 0 0)
+  overflow: hidden
+.button
+  display: inline-block
+  min-width: 307px
+  height: 73px
+  padding: 20px 10px 30px
+  font-weight: 900
+  letter-spacing: 1px
+  text-align: center
+  background: no-repeat url("../images/button.png") center
+  text-transform: uppercase
+  font-family: "CoreSansE-Black"
+  font-size: 1.8rem
+  color: #FFF
+  cursor: pointer
+  transition: all 0.18s linear
+  &:active
+    background: no-repeat url("../images/button-active.png") center
+    padding-bottom: 14px
+  &:hover
+    background: no-repeat url("../images/button-hover.png") center
+.section-header
+  margin-top: 56px
+  &__header
+    font-family: "CoreSansE-Black", Arial, Helvetica, sans-serif
+    font-size: 6.8rem
+    color: #ff0000
+    margin: 0
+    line-height: 7.2rem
+    letter-spacing: 3px
+    font-weight: 900
+    text-transform: uppercase
+    text-align: center
+    z-index: 1
+    pointer-events: none
+    user-select: none
+  &__sub-header
+    font-family: "Besom", Arial, Helvetica, sans-serif
+    font-size: 18rem
+    color: #32383f
+    margin: -132px 0 0 0
+    opacity: 10%
+    line-height: 21.5rem
+    letter-spacing: 9px
+    text-transform: uppercase
+    text-align: center
+    z-index: -1
+    pointer-events: none
+    user-select: none

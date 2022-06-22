@@ -1,0 +1,35 @@
+.header
+  display: flex
+  padding-top: 36px
+  align-items: center
+  &__course-name
+    margin-left: auto
+    position: relative
+    font-size: 1.8rem
+    letter-spacing: 1.3rem
+    text-transform: lowercase
+    color: #FFF
+    text-align: center
+    pointer-events: none
+    &:before
+      content: ''
+      position: absolute
+      width: 351px
+      height: 14px
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -30%)
+      background: no-repeat url("../images/blur-tex.png") center
+      pointer-events: none
+  &__logotype
+    width: 213px
+    height: 48px
+    justify-self: flex-start
+  &__phone
+    margin-left: auto
+    font-family: "CoreSansE-Medium", Arial, Helvetica, sans-serif
+    font-weight: 500
+    font-size: 2.4rem
+    color: #FFF
+    text-align: right
+    

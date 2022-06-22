@@ -1,0 +1,129 @@
+.course-summary
+  padding-top: 100px
+  padding-bottom: 130px
+  &__body
+    position: relative
+    // background: no-repeat url("../images/path.svg")
+    // background-position: top left 180px
+.course-summary-list
+  margin-top: 60px
+  &__item
+    display: flex
+    align-items: center
+    &:nth-child(1) > div
+      width: 300px
+    &:nth-child(2)
+      margin-top: -40px
+      > div
+        width: 300px
+    &:nth-child(3)
+      margin-top: -60px
+      > div
+        width: 310px
+    &:nth-child(4)
+      margin-top: -85px
+      > div
+        width: 270px
+    &:nth-child(2n)
+      justify-content: flex-end
+    &:nth-child(1)::before
+      content: ''  
+      width: 366px
+      height: 300px
+      background: no-repeat url("../images/img1.png") center
+    &:nth-child(2)::before
+      content: ''  
+      width: 373px
+      height: 312px
+      background: no-repeat url("../images/img2.png") center
+    &:nth-child(3)::before
+      content: ''  
+      width: 374px
+      height: 385px
+      background: no-repeat url("../images/img3.png") center
+    &:nth-child(4)::before
+      content: ''  
+      width: 393px
+      height: 321px
+      background: no-repeat url("../images/img4.png") center
+  &__item-content
+    display: flex
+    flex-direction: column
+    margin-left: 28px
+  &__item-name
+    font-family: "CoreSansE-Bold", Arial, Helvetica, sans-serif
+    font-size: 2rem
+    line-height: 2.4rem
+  &__item-description
+    margin-top: 20px
+.path-start
+  position: relative
+  &::before
+    content: 'Start'
+    position: absolute
+    top: 58px
+    right: 236px
+    font-family: "CoreSansE-Light", Arial, Helvetica, sans-serif
+    font-size: 2.4rem
+    line-height: 2.4rem
+    color: #ff0000
+  &__dot
+    position: absolute
+    top: 92px
+    right: 255px
+    animation: grow 0.4s infinite
+    animation-direction: alternate
+  &__dot-big
+    position: absolute
+    top: 87px
+    right: 250px
+    animation: shrink 0.4s infinite
+    animation-direction: alternate
+.path-end
+  position: relative
+  &::before
+    content: 'Finish'
+    position: absolute
+    top: -70px
+    right: 802px
+    font-family: "CoreSansE-Light", Arial, Helvetica, sans-serif
+    font-size: 2.4rem
+    line-height: 2.4rem
+    color: #ff0000
+  &__dot
+    position: absolute
+    top: -90px
+    right: 826px
+    animation: grow 0.4s infinite
+    animation-direction: alternate
+  &__dot-big
+    position: absolute
+    top: -95px
+    right: 821px
+    animation: shrink 0.4s infinite
+    animation-direction: alternate
+.line
+  position: absolute
+  top: 0
+  left: 180px
+  z-index: -1
+  &__mask
+    stroke: white
+    stroke-width: 4px
+  &__path
+    fill: none
+    stroke-width: 2px
+    stroke-dasharray: 6 7
+    fill-rule: evenodd
+@keyframes shrink
+  0%
+    transform: scale(1)
+  100%
+    transform: scale(0.6)
+@keyframes grow
+  0%
+    transform: scale(1)
+  100%
+    transform: scale(1.2)
+    
+  

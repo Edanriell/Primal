@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+        opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_1_копия_2" data-name="Эллипс 1 копия 2" class="cls-1" cx="10.5" cy="10.5" r="10.5"/>
+</svg>

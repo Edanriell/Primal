@@ -1,0 +1,140 @@
+=numbers($url)
+  margin-right: 49px
+  background: no-repeat $url center
+  -webkit-text-fill-color: transparent
+  -webkit-background-clip: text
+.skills
+  padding-top: 100px
+  padding-bottom: 130px
+.skills-list
+  display: flex
+  flex-direction: column
+  padding-top: 20px
+  &__item
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: flex-start
+    margin-bottom: -22px
+    &:hover:nth-child(1),
+    &:hover:nth-child(2),
+    &:hover:nth-child(3),
+    &:hover:nth-child(4),
+    &:hover:nth-child(5)
+      &:before
+        filter: grayscale(0)
+    &:last-child
+      margin-bottom: 0
+    &:nth-child(2n)
+      justify-content: flex-end
+      margin-top: -29px
+    &:before
+      font-family: "Besom", "Arial", sans-serif
+      font-weight: normal
+      text-transform: uppercase
+      font-size: 20.5rem
+      line-height: 17rem
+      filter: grayscale(1)
+      transition: all 0.2s ease-in-out
+    &:nth-child(1)::before
+      content: '01'
+      +numbers(url("../images/01bg.png"))
+    &:nth-child(2)::before
+      content: '02'
+      +numbers(url("../images/02bg.png"))
+    &:nth-child(3)::before
+      content: '03'
+      +numbers(url("../images/03bg.png"))
+    &:nth-child(4)::before
+      content: '04'
+      +numbers(url("../images/04bg.png"))
+    &:nth-child(5)::before
+      content: '05'
+      +numbers(url("../images/05bg.png"))
+  &__item-body
+    width: 310px
+    margin-bottom: auto
+  &__item-name
+    font-family: "CoreSansE-Bold", Arial, Helvetica, sans-serif
+    font-weight: 700
+    font-size: 2rem
+    line-height: 2.4rem
+  &__item-description
+    margin-top: 20px
+.additional-skills
+  > h3
+    font-size: 3.6rem
+    line-height: 3.6rem
+    margin-top: 90px
+  &__list
+    display: flex
+    flex-direction: row
+    background: no-repeat url("../images/red-bar.png") center
+  &__item
+    display: flex
+    flex-direction: column
+    &:nth-child(1)
+      margin-left: 38px
+      width: 138px
+      &::before
+        font-family: "CoreSansE-Heavy", Arial, Helvetica, sans-serif
+        content:'1'
+        width: 20px
+        hegiht: 20px
+        margin-bottom: 46px
+        margin-left: 16px
+        margin-top: 94px
+        color: #FFF
+        text-align: center
+    &:nth-child(2)
+      margin-left: auto
+      width: 168px
+      &::before
+        font-family: "CoreSansE-Heavy", Arial, Helvetica, sans-serif
+        content:'2'
+        width: 20px
+        hegiht: 20px
+        margin-bottom: 46px
+        margin-left: 26px
+        margin-top: 94px
+        color: #FFF
+        text-align: center
+    &:nth-child(3)
+      margin-left: auto
+      width: 164px
+      &::before
+        font-family: "CoreSansE-Heavy", Arial, Helvetica, sans-serif
+        content:'3'
+        width: 20px
+        hegiht: 20px
+        margin-bottom: 46px
+        margin-left: 46px
+        margin-top: 94px
+        color: #FFF
+        text-align: center
+    &:nth-child(4)
+      margin-left: auto
+      width: 211px
+      &::before
+        font-family: "CoreSansE-Heavy", Arial, Helvetica, sans-serif
+        content:'4'
+        width: 20px
+        hegiht: 20px
+        margin-bottom: 46px
+        margin-left: 46px
+        margin-top: 94px
+        color: #FFF
+        text-align: center
+    &:nth-child(5)
+      margin-left: auto
+      width: 139px
+      &::before
+        font-family: "CoreSansE-Heavy", Arial, Helvetica, sans-serif
+        content:'5'
+        width: 20px
+        hegiht: 20px
+        margin-bottom: 46px
+        margin-left: 62px
+        margin-top: 94px
+        color: #FFF
+        text-align: center

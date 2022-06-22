@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="338.406" height="782.15" viewBox="0 0 338.406 782.15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1px;
+        stroke-dasharray: 6 7;
+        fill-rule: evenodd;
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <path id="Эллипс_2" data-name="Эллипс 2" class="cls-1" d="M860.144,5087.19C1063,5220.07,1197,5449.38,1197,5710a747.022,747.022,0,0,1-16.89,158.36" transform="translate(-859.094 -5086.69)"/>
+</svg>
