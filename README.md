@@ -1,2 +1,2 @@
-# Skincare
-![Skincare](https://github.com/Edanriell/oldProjects-2/blob/master/AnimatedText/skincare.png?raw=true)
+# Primal
+![Primal](https://github.com/Edanriell/Primal/blob/master/primal.png?raw=true)
